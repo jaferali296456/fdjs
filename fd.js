@@ -1,6 +1,6 @@
 function replaceShortcodes() {
     const shortcodes = {
-        fd: { name: '720p', regex: /\[fd id='(.*?)'\]/g, url: 'https://www.fastdrama.icu/' },
+        fd: { name: '720p', regex: /\[fd id='(.*?)'\]/g, url: 'https://www.fastdrama.icu/p/' },
     };
 
     const contentContainers = document.querySelectorAll('.download-links');
