@@ -1,7 +1,8 @@
 function replaceShortcodes() {
     const shortcodes = {
         fd: { name: '720p', regex: /\[fd id='(.*?)'\]/g, url: 'https://www.fastdrama.icu/p/' },
-        egt: { name: 'GDTOT', regex: /\[egt id='(.*?)'\]/g, url: 'https://www.fastdrama.icu/p/' },v
+        egf: { name: 'GDFLIX', regex: /\[egf id='(.*?)'\]/g, url: 'https://new7.gdtot.dad/file/' },
+        egt: { name: 'GDTOT', regex: /\[egt id='(.*?)'\]/g, url: 'https://new5.gdflix.cfd/file/' },
     };
 
     const contentContainers = document.querySelectorAll('.download-links');
